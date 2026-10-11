@@ -1,0 +1,9 @@
+{
+  "name": "daniel-mods",
+  "owner": { "name": "Daniel Gillaspia" },
+  "plugins": [
+    { "name": "agent-dashboard", "source": "./mods/agent-dashboard", "description": "Live pane showing what the main session and each subagent is doing" },
+    { "name": "model-router", "source": "./mods/model-router", "description": "Sends simple requests and Explore subagents to a cheaper model" },
+    { "name": "session-handoff", "source": "./mods/session-handoff", "description": "Pass work between Claude Code sessions with /handoff and /pickup" }
+  ]
+}

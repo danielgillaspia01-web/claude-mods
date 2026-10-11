@@ -1,0 +1,8 @@
+{
+  "name": "session-handoff",
+  "version": "0.1.0",
+  "description": "Pass work between Claude sessions: /handoff saves a summary, /pickup continues it in another session",
+  "author": {
+    "name": "Daniel Gillaspia"
+  }
+}

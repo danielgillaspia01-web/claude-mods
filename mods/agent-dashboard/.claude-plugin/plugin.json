@@ -1,0 +1,9 @@
+{
+  "name": "agent-dashboard",
+  "version": "0.1.0",
+  "description": "A live pane showing what the main session and each subagent is doing right now",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "Daniel Gillaspia"
+  }
+}
