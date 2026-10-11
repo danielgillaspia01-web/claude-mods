@@ -10,14 +10,20 @@ Three mods for Claude Code.
 
 ## Install
 
-In a Claude Code terminal session, run one line per mod:
+In Claude Code, add this repo as a marketplace once:
 
 ```
-/plugin install agent-dashboard --marketplace danielgillaspia01-web/claude-mods
-/plugin install model-router --marketplace danielgillaspia01-web/claude-mods
-/plugin install session-handoff --marketplace danielgillaspia01-web/claude-mods
+/plugin marketplace add danielgillaspia01-web/claude-mods
 ```
 
-Answer `y` to add the marketplace, then pick the user scope so it loads in every session.
+Then install each mod:
+
+```
+/plugin install agent-dashboard@daniel-mods
+/plugin install model-router@daniel-mods
+/plugin install session-handoff@daniel-mods
+```
+
+Pick the user scope if asked, so they load in every session. Restart Claude Code after installing.
 
 These use Claude Code's function-hooks API, which is early access and can change between releases.
