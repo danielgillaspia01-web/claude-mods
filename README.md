@@ -1,12 +1,13 @@
 # Claude Code mods
 
-Three mods for Claude Code.
+Four mods for Claude Code.
 
 | Mod | What it does |
 | --- | --- |
 | agent-dashboard | `/agents` opens a side pane showing what the main session and each subagent is doing, its status and how many tools it has used. |
 | model-router | Sends short, simple requests (typos, renames, formatting) to Haiku and keeps real work on your main model. Explore subagents run on Haiku too. Start a prompt with `!cheap` or `!big` to force it. `/router on`, `/router off`, `/router status`. |
 | session-handoff | `/handoff [focus]` writes a summary of the current work. `/pickup` in another session on the same computer continues from it. |
+| writing-style | A skill with Daniel's writing voice. Claude uses it automatically when writing essays, emails or anything sent as his own. |
 
 ## Install
 
@@ -22,6 +23,7 @@ Then install each mod:
 /plugin install agent-dashboard@daniel-mods
 /plugin install model-router@daniel-mods
 /plugin install session-handoff@daniel-mods
+/plugin install writing-style@daniel-mods
 ```
 
 Pick the user scope if asked, so they load in every session. Restart Claude Code after installing.
